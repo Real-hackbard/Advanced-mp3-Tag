@@ -44,7 +44,14 @@ Here is the historical development of the various ID3v2 specifications, based on
 
 </br>
 
+| function | ID3v1 (predecessor) | ID3v2 (From 1998) |
+| :-----------  | :-----------  | :-----------  |
+| Position     | End of file (last 128 bytes)     | Start of file (usually)     |
+| Size limit     | Maximum of 30 characters per field     | Virtually unlimited (up to 256 MB)     |
+| Character set     | Pure ISO-8859-1 (ASCII)     | Unicode (UTF-16 and UTF-8)     |
+| Content     | Text only (Title, Artist, Album)     | Images, lyrics, binary data     |
 
+</br>
 
 ### ID3v2.0:
 A ID3v2 tag consists of a number of optional frames, each of which contains a piece of metadata up to 16 MB in size. For example, a TT2 frame may be included to contain a title. The entire tag may be as large as 256 MB, and strings may be encoded in Unicode.
