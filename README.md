@@ -49,7 +49,7 @@ The lyrics of a song will usually have a meaning. Some times the meaning is easy
 
 </be>
 
-![Advanced mp3 batch](https://github.com/user-attachments/assets/e4017504-f035-4923-8755-44c840ec1874)
+<img src="https://github.com/user-attachments/assets/b2e54d64-71ff-4a88-8554-588e0434c371" />  
 
 </br>
 
