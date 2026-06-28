@@ -8,7 +8,7 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
-| 1.1.x   | :white_check_mark: Precise loading of MP3 files in a folder, Fix: removal of the existing cover, Batch: direct reading of all tags, File information |
+| 1.1.x   | :white_check_mark: Precise loading of MP3 files in a folder, Fix: removal of the existing cover, Batch: direct reading of all tags, File information, Image pixel functions, determined the optimal size of a cover image |
 
 ## Reporting a Vulnerability
 
