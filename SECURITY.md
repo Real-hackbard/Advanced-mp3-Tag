@@ -8,6 +8,7 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
+| 1.1.x   | :white_check_mark: Precise loading of MP3 files in a folder, Fix: removal of the existing cover |
 
 ## Reporting a Vulnerability
 
