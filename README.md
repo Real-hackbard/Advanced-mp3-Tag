@@ -57,7 +57,7 @@ The lyrics of a song will usually have a meaning. Some times the meaning is easy
 # :wrench: Mp3FileUtils.pas Library:
 A collection of classes for reading and writing various information from MP3 files with Delphi. The classes are compatible with Delphi 7 (possibly earlier) up to Delphi 2010.
 
-### Properties:
+# :wrench: Properties:
 * Reading and writing the ID3v1 tag
 * Reading and writing the ID3v2 tag
 * Support for all existing versions: v1, v1.1, v2.2, v2.3, and v2.4
@@ -69,6 +69,20 @@ A collection of classes for reading and writing various information from MP3 fil
 * Unknown frames (~ information fields) in the tag are retained.
 * Reading/calculating the MPEG information of an MP3 file - e.g., bit rate, channel mode, sample rate, duration
 * Fast data determination: Even with vbr, the playing time is (almost) always determined correctly without having to read the entire file.
+
+### New in Version 6.0
+* Support for "Private Frames"
+* Detection of the VBRI header
+* a few new genres in the genre list for ID3v1
+* New methods Get/SetUserText, GetAllUsertextFrames
+* ID3v2Tag.ReadFromStream is faster: the tag is loaded completely first, and the individual frames are then read from the memory stream.
+* Methods SetRating and SetPersonalPlayCounter combined into SetRatingAndCounter.
+* Bug fix: Correct reading of UTF-8 encoded text frames with Delphi 2009
+* Bugfix: ExtendedHeader size was misinterpreted.
+* Bug fix: User-defined text frames (TXXX) have a different structure than standard text frames.
+* Bugfix: Fixed mixed types in GetFrameLength
+
+</br>
 
 Download latest Version : [Mp3FileUtils](https://www.gausi.de/mp3fileutils.html?file=files/delphi/mp3fileutils_06a.zip&cid=181)  
 Download latest Version (Lazarus) : [Mp3FileUtils](https://www.gausi.de/mp3fileutils.html?file=files/delphi/mp3fileutils_06_lazarus.zip&cid=757)
