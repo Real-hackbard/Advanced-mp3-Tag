@@ -35,6 +35,16 @@ The 128-byte block is strictly divided into fixed sections:
 * ```Comment (30 bytes / 28 bytes in v1.1)```: Free text field.
 * ```Genre (1 byte)```: A predefined numeric value originally limited to 80 genres (such as rock, pop, and jazz).
 
+</br>
+
+# Technical structure of ID3v2
+The ID3v2 format was developed by Martin Nilsson in 1998 to overcome the significant technical limitations of the old ID3v1 standard. While ID3v1 stored data rigidly at the end of the file, ID3v2 uses a dynamic system of "frames" (data blocks) at the beginning of the MP3 file.
+
+Here is the historical development of the various ID3v2 specifications, based on the official [ID3.org](https://id3.org/id3v2.3.0) documentation and development history:
+
+</br>
+
+
 
 ### ID3v2.0:
 A ID3v2 tag consists of a number of optional frames, each of which contains a piece of metadata up to 16 MB in size. For example, a TT2 frame may be included to contain a title. The entire tag may be as large as 256 MB, and strings may be encoded in Unicode.
