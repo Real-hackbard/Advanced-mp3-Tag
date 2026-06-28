@@ -58,8 +58,8 @@ The lyrics of a song will usually have a meaning. Some times the meaning is easy
 A collection of classes for reading and writing various information from MP3 files with Delphi. The classes are compatible with Delphi 7 (possibly earlier) up to Delphi 2010.
 
 # :wrench: Properties:
-* Reading and writing the ID3v1 tag
-* Reading and writing the ID3v2 tag
+* Reading and writing the ```ID3v1``` tag
+* Reading and writing the ```ID3v2``` tag
 * Support for all existing versions: ```v1, v1.1, v2.2, v2.3```, and ```v2.4```
 * Easy access to standard properties such as artist and title
 * Access to extended properties such as lyrics, images, URLs, and ratings
