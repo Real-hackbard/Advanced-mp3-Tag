@@ -52,6 +52,7 @@ The lyrics of a song will usually have a meaning. Some times the meaning is easy
 <img src="https://github.com/user-attachments/assets/b2e54d64-71ff-4a88-8554-588e0434c371" />  
 
 </br>
+</br>
 
 # :wrench: Mp3FileUtils.pas Library:
 A collection of classes for reading and writing various information from MP3 files with Delphi. The classes are compatible with Delphi 7 (possibly earlier) up to Delphi 2010.
