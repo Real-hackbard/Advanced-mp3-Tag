@@ -25,7 +25,9 @@ There are two unrelated versions of ID3: ID3v1 and ID3v2. In ID3v1, the metadata
 </br>
 
 # Technical structure of ID3v1
-The 128-byte block is strictly divided into fixed sections:
+The ID3v1 standard was developed by Eric Kemp in 1996. It solved the problem that MP3 files could not originally store native metadata. Its structure is based on a fixed 128-byte block at the end of the file, which held basic information such as title, artist, album, year, genre (as an 8-bit number), and a short comment.
+
+### The 128-byte block is strictly divided into fixed sections:
 
 * ```Header (3 bytes)```: Defined by the character string TAG.
 * ```Title (30 bytes)```: Title of the song.
