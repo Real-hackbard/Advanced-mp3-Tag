@@ -33,7 +33,7 @@ The first public variant of v2, ID3v2.2, used three character frame identifiers 
 ID3v2.3 is the most widely used version of ID3v2 tags and is widely supported by Windows Explorer and Windows Media Player. Notably it introduced the ability to embed an image such as an album cover.
 
 ### ID3v2.4:
-ID3v2.4 was published on November 1, 2000. It defines 83 frame types,[12] allows text frames to contain multiple values separated with a null byte, and permits the tag to be stored at either the beginning or the end of the file.
+ID3v2.4 was published on November 1, 2000. It defines 83 frame types, allows text frames to contain multiple values separated with a null byte, and permits the tag to be stored at either the beginning or the end of the file.
 
 ### Lyrics:
 Lyrics3v1 and Lyrics3v2 were tag standards implemented before ID3v2, for adding lyrics to mp3 files. The difference with ID3v2 is that Lyrics3 is always at the end of an MP3 file, before the ID3v1 tag.
