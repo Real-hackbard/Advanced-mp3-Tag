@@ -60,7 +60,7 @@ A collection of classes for reading and writing various information from MP3 fil
 # :wrench: Properties:
 * Reading and writing the ID3v1 tag
 * Reading and writing the ID3v2 tag
-* Support for all existing versions: v1, v1.1, v2.2, v2.3, and v2.4
+* Support for all existing versions: ```v1, v1.1, v2.2, v2.3```, and ```v2.4```
 * Easy access to standard properties such as artist and title
 * Access to extended properties such as lyrics, images, URLs, and ratings
 * Access to any information fields is possible, requiring advanced programming knowledge of the ID3 tag structure.
