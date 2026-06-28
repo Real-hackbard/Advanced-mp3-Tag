@@ -29,6 +29,11 @@ The 128-byte block is strictly divided into fixed sections:
 
 * ```Header (3 bytes)```: Defined by the character string TAG.
 * ```Title (30 bytes)```: Title of the song.
+* ```Artist (30 Bytes)```: Performer.
+* ```Album (30 Bytes)```: Albumname.
+* ```Year (4 bytes)```: Year of publication (as text).
+* ```Comment (30 bytes / 28 bytes in v1.1)```: Free text field.
+* ```Genre (1 byte)```: A predefined numeric value originally limited to 80 genres (such as rock, pop, and jazz).
 
 
 ### ID3v2.0:
