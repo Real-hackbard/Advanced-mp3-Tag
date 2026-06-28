@@ -64,7 +64,7 @@ A collection of classes for reading and writing various information from MP3 fil
 * Easy access to standard properties such as artist and title
 * Access to extended properties such as lyrics, images, URLs, and ratings
 * Access to any information fields is possible, requiring advanced programming knowledge of the ID3 tag structure.
-* Unicode support
+* [Unicode support](https://en.wikipedia.org/wiki/Unicode)
 * Unsynchronization support
 * Unknown frames (~ information fields) in the tag are retained.
 * Reading/calculating the MPEG information of an MP3 file - e.g., bit rate, channel mode, sample rate, duration
