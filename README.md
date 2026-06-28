@@ -22,6 +22,14 @@ There are two unrelated versions of ID3: ID3v1 and ID3v2. In ID3v1, the metadata
 <img src="https://github.com/user-attachments/assets/afe70ee6-3add-4676-b5df-985e31a4f7b1" />
 
 </br>
+</br>
+
+# Technical structure of ID3v1
+The 128-byte block is strictly divided into fixed sections:
+
+* ```Header (3 bytes)```: Defined by the character string TAG.
+* ```Title (30 bytes)```: Title of the song.
+
 
 ### ID3v2.0:
 A ID3v2 tag consists of a number of optional frames, each of which contains a piece of metadata up to 16 MB in size. For example, a TT2 frame may be included to contain a title. The entire tag may be as large as 256 MB, and strings may be encoded in Unicode.
