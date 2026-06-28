@@ -19,7 +19,7 @@ There are two unrelated versions of ID3: ID3v1 and ID3v2. In ID3v1, the metadata
 
 </br>
 
-![Advanced mp3_file](https://github.com/user-attachments/assets/908d7ffc-136b-41d4-b02d-ea49c098ef38)
+<img src="https://github.com/user-attachments/assets/afe70ee6-3add-4676-b5df-985e31a4f7b1" />
 
 </br>
 
